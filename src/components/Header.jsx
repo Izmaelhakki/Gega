@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
-      {/* Header Ana özellikleri */}
+    <>
+      {/* Header Main Properties */}
       <div className="bg-black py-6 lg:py-12 text-gega-grey uppercase">
         {/* Header Container */}
         <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
@@ -82,7 +82,7 @@ function Header() {
           </nav>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
