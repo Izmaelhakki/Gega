@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import MoviesSection from "./components/MoviesSection";
 import InterSection from "./components/InterSection";
+import Posts from "./components/Posts";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection/>
       <MoviesSection/>
       <InterSection/>
+      <Posts/>
     </div>
   );
 }

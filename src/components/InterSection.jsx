@@ -4,7 +4,7 @@ function InterSection() {
   return (
     <>
       {/* Matrix Section*/}
-      <div className="bg-gega-white mb-24">
+      <div className="bg-gega-white">
         {/* Matrix Section Container*/}
         <div className="pl-10 lg:pl-0 container flex items-center justify-center relative">
           {/* Left Content*/}
