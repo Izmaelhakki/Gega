@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div>
       {/* Hero Main Section */}
-      <div className="relative h-64 md:h-96 lg:h-128 group">
+      <div className="relative h-96 lg:h-128 group">
         {/* Hero Image */}
         <img
           src="../../public/images/batman.jpg"
@@ -46,7 +46,7 @@ function HeroSection() {
           </div>
         </div>
         {/* Points */}
-        <div className="flex space-x-3 absolute bottom-5 left-20 opacity-0 group-hover:opacity-100 duration-1000">
+        <div className="absolute flex space-x-3  bottom-5 left-20 opacity-0 group-hover:opacity-100 duration-1000">
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-red"></div>
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>

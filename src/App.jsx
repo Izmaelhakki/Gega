@@ -5,7 +5,7 @@ import MoviesSection from "./components/MoviesSection";
 
 function App() {
   return (
-    <div>
+    <div className="font-open">
       <Header />
       <HeroSection/>
       <MoviesSection/>
