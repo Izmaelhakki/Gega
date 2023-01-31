@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-open">
+    <div className="font-open dark">
       <Header />
       <HeroSection/>
       <MoviesSection/>

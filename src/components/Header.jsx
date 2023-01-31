@@ -3,8 +3,14 @@ import React from "react";
 function Header() {
   return (
     <>
+      {/* Dark-Light Toogle */}
+      <div className=" absolute top-1 left-5 cursor-pointer text-lg">
+        <i className="fa-solid fa-sun text-white"id="sun"></i>
+        <i className="fa-solid fa-moon text-black hidden"id="moon"></i>
+      </div>
+
       {/* Header Main Properties */}
-      <div className="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+      <div className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
         {/* Header Container */}
         <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
           {/* Logo */}
